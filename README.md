@@ -5,7 +5,7 @@ A Nextflow DSL2 pipeline that reports **total read count** and **average coverag
 ## Requirements
 - Nextflow >= 23.04
 - Docker (or Singularity)
-- BAM files must be indexed (`.bam` + `.bam.bai`)
+- Coordinate-sorted BAM files (no index required)
 
 ## Usage
 
